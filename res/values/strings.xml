@@ -409,13 +409,13 @@
     <string name="preferred_network_mode_dialogtitle">Preferred network type</string>
     <string name="forbidden_network">(forbidden)</string>
     <!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: WCDMA preferred</string>
+    <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: 3G preferred</string>
     <!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
+    <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: 2G only</string>
     <!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: WCDMA only</string>
+    <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: 3G only</string>
     <!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
+    <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: 3G / 2G</string>
     <!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
     <string name="preferred_network_mode_cdma_summary">Preferred network mode: CDMA</string>
     <!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
@@ -425,19 +425,19 @@
     <!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
     <string name="preferred_network_mode_evdo_only_summary">Preferred network mode: EvDo only</string>
     <!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Preferred network mode: CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Preferred network mode: CDMA/EvDo/3G/2G</string>
     <!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
     <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE </string>
     <!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: LTE/3G/2G</string>
     <!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
     <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
     <!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
     <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
     <!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
-    <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
+    <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / 3G</string>
      <!-- Mobile network settings, summary for preferred network mode LTE / GSM / UMTS [CHAR LIMIT=100] -->
-     <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
+     <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / 2G / UMTS</string>
      <!-- Mobile network settings, summary for preferred network mode LTE / CDMA [CHAR LIMIT=100] -->
      <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
      <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
@@ -449,19 +449,19 @@
     <string name="callUnanswered_forwarded">Call Unanswered and Forwarded</string>
 
     <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
+        <item>LTE/3G</item>
         <item>LTE</item>
         <item>Global</item>
-        <item>GSM/WCDMA/LTE</item>
+        <item>LTE/3G/2G</item>
         <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA/EvDo/3G/2G</item>
         <item>EvDo only</item>
         <item>CDMA w/o EvDo</item>
         <item>CDMA/EvDo auto</item>
-        <item>GSM/WCDMA auto</item>
-        <item>WCDMA only</item>
-        <item>GSM only</item>
-        <item>GSM/WCDMA preferred</item>
+        <item>3G/2G auto</item>
+        <item>3G only</item>
+        <item>2G only</item>
+        <item>3G/2G preferred</item>
     </string-array>
     <string-array name="preferred_network_mode_values"  translatable="false">
         <item>"12"</item>
